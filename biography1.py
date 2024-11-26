@@ -11,6 +11,7 @@ st.write("""
 Hello! My name is Liza Reil Agad, and I am a third year irregular student of Surigao del Norte State University. Taking the course of Bachelor of Science in Computer Engineering. 
 In this blog, I will share a little bit about my journey, educational attainments, and hobbies. I hope you enjoy reading my journey!
 """)
+st.subheader("About Me")
 
 # Add a subtitle for the achievements section
 st.subheader("Educational Attainments")
