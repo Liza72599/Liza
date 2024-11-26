@@ -1,59 +1,53 @@
 import streamlit as st
 
-# Set the title of the page
-st.title("Liza Reil Agad's Biography Blog :sunflower:")
+st.title("My Biography :sunflower:")
 
-# Add a profile picture (Ensure to upload the image to GitHub or use a local path)
-st.image('images/profile.jpg', caption='This is me!', width=250)  # Update the path if needed
+st.image('pic.jpg', caption='About Myself!', width=200)
 
-# Introduction Section
-st.header("Introduction")
+st.subheader("Introduction")
+
+# Add content for the introduction section
 st.write("""
-Hi there! I'm **Liza Reil Agad**, a third-year student at Surigao del Norte State University. 
-I'm passionate about technology, especially in areas like **data science** and **web development**.
-In this blog, I’ll share a bit about my skills, projects, and how you can get in touch with me.
+Hello! My name is Liza Reil Agad, and I am a third year irregular student of Surigao del Norte State University. Taking the course of Bachelor of Science in Computer Engineering. 
+In this blog, I will share a little bit about my journey, educational attainments, and hobbies. I hope you enjoy reading my journey!
+""")
+st.subheader("About Me")
+st.write("""
+- **Name:** Liza Reil Agad 
+- **Gender:** Female
+- **Age:** 25 years old
+- **Permanent Address:** Prk. Sunflower, Gamut, Tago, Surigao del Sur
+- **Current Address:** P-24, Sitio Looc, Brgy. Luna. Surigao City
+- **Birthday:** July 25, 1999
+- **Place of Birth:** Gamut, Tago, Surigao del Sur
+""")
+st.subheader("Educational Attainments")
+st.write("""
+- **Elementary:** Gamut Elementary School
+- **High School:** Gamut National High School
+- **Senior High School:** Gamut National High School
 """)
 
-# Skills Section
-st.header("Skills")
-st.write("""
-- **Programming Languages**: Python, JavaScript
-- **Data Science**: Pandas, NumPy, Scikit-learn
-- **Web Development**: HTML, CSS, Flask
-- **Other**: Git, SQL, Docker
+st.subheader("Parental Information")
+st.write(""" 
+- **Mother's Name:** Lucy C. Agad
+- **Father's Name:** Eufemio C. Agad
 """)
 
-# Projects Section
-st.header("My Projects")
-st.write("""
-Here are a few projects I've worked on:
-1. **Personal Portfolio Website** - Built using HTML, CSS, and JavaScript.
-2. **Data Analysis on COVID-19** - Analyzed COVID-19 trends using Python and Pandas.
-3. **Machine Learning for Stock Price Prediction** - Created a model using Scikit-learn to predict stock prices.
-""")
+st.subheader("Contact Me")
 
-# Contact Section
-st.header("Contact Me")
-st.write("""
-Feel free to reach out for any questions, project collaboration, or just to connect!
-""")
 
-# Contact Form
 with st.form(key='contact_form'):
     name = st.text_input("Your Name")
     email = st.text_input("Your Email")
     message = st.text_area("Your Message")
+    
     submit_button = st.form_submit_button("Send Message")
     
     if submit_button:
-        if not name or not email or not message:
-            st.error("Please fill in all fields.")
-        else:
-            st.success(f"Thank you {name}! Your message has been sent successfully.")
-            st.write(f"Subject: General Inquiry")
-            st.write(f"Message: {message}")
-            st.write(f"We’ll reach out to you at {email}.")
+        st.write(f"Thank you {name} for reaching out! I'll get back to you soon.")
+        st.write(f"Message: {message}")
+        st.write(f"We'll contact you at {email}.")
 
-# Optional Footer
 st.markdown("---")
-st.write("This is a simple biography blog created with Streamlit. All content is for demonstration purposes.")
+st.write("This is a simple biography blog built using Streamlit. All content is fictional and for demonstration purposes.")
