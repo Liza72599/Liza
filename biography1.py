@@ -4,7 +4,7 @@ import streamlit as st
 st.title("My Biography Blog :sunflower:")
 
 # Add a photo (Make sure to replace 'your_image.jpg' with your actual image file path)
-st.image('pic.jpg', caption='This is me!', width=200)
+st.image('pic.jpg', caption='This is me!', use_container_width=50)
 
 # Add a subtitle for the introduction section
 st.subheader("Introduction")
