@@ -12,7 +12,13 @@ Hello! My name is Liza Reil Agad, and I am a third year irregular student of Sur
 In this blog, I will share a little bit about my journey, educational attainments, and hobbies. I hope you enjoy reading my journey!
 """)
 st.subheader("About Me")
-
+st.write("""
+- f"Age: 
+- I have worked with [Company/Organization] as a [Position].
+- I published my first book/article on [Topic].
+- I have been recognized for my contributions in [Industry/Field].
+- I have a passion for [Hobby/Interest].
+""")
 # Add a subtitle for the achievements section
 st.subheader("Educational Attainments")
 
