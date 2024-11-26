@@ -13,11 +13,13 @@ In this blog, I will share a little bit about my journey, educational attainment
 """)
 st.subheader("About Me")
 st.write("""
-- f"Age: 
-- I have worked with [Company/Organization] as a [Position].
-- I published my first book/article on [Topic].
-- I have been recognized for my contributions in [Industry/Field].
-- I have a passion for [Hobby/Interest].
+- Name: Liza Reil Agad 
+- Gender: Female
+- Age: 25 years old
+- Permanent Address: Prk. Sunflower, Gamut, Tago, Surigao del Sur
+- Current Address: P-24, Sitio Looc, Brgy. Luna. Surigao City
+- Birthday: July 25, 1999
+- Place of Birth: Gamut, Tago, Surigao del Sur
 """)
 # Add a subtitle for the achievements section
 st.subheader("Educational Attainments")
