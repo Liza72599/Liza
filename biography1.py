@@ -3,23 +3,23 @@ import streamlit as st
 # Set the title of the page
 st.title("My Biography Blog :sunflower:")
 
-st.image('pic.jpg', caption='This is me!', width=200)
+st.image('pic.jpg', caption='About Myself!', width=200)
 
 # Add a subtitle for the introduction section
 st.subheader("Introduction")
 
 # Add content for the introduction section
 st.write("""
-Welcome to my biography blog! My name is Liza Reil Agad, and I am a third year irregular student of Surigao del Norte State University. 
-In this blog, I will share a little bit about my life, achievements, and future aspirations. I hope you enjoy reading my journey!
+Hello! My name is Liza Reil Agad, and I am a third year irregular student of Surigao del Norte State University. 
+In this blog, I will share a little bit about my journey, educational attainments, and hobbies. I hope you enjoy reading my journey!
 """)
 
 # Add a subtitle for the achievements section
-st.subheader("Achievements")
+st.subheader("Educational Attainments")
 
 # Add content for the achievements section
 st.write("""
-- I graduated with a degree in [Your Degree].
+- I graduated my elementary at Gamut Elementary School.
 - I have worked with [Company/Organization] as a [Position].
 - I published my first book/article on [Topic].
 - I have been recognized for my contributions in [Industry/Field].
