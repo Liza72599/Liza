@@ -28,16 +28,10 @@ st.write("""
 - **Senior High School:** Gamut National High School
 """)
 
-# Add a subtitle for the future aspirations section
-st.subheader("Future Aspirations")
-
-# Add content for future aspirations
-st.write("""
-In the coming years, I aim to:
-- Expand my knowledge in [Field/Subject].
-- Collaborate with professionals in [Industry].
-- Write more about my experiences and lessons learned.
-- Continue to inspire others through my work.
+st.subheader("Parental Information")
+st.write(""" 
+- **Mother's Name:** Lucy C. Agad
+- **Father's Name:** Eufemio C. Agad
 """)
 
 # Add a subtitle for the contact section
