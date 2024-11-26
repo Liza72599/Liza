@@ -13,7 +13,7 @@ In this blog, I will share a little bit about my journey, educational attainment
 """)
 st.subheader("About Me")
 st.write("""
-- Name: Liza Reil Agad 
+- **Name:** Liza Reil Agad 
 - Gender: Female
 - Age: 25 years old
 - Permanent Address: Prk. Sunflower, Gamut, Tago, Surigao del Sur
