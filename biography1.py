@@ -21,17 +21,11 @@ st.write("""
 - **Birthday:** July 25, 1999
 - **Place of Birth:** Gamut, Tago, Surigao del Sur
 """)
-# Add a subtitle for the achievements section
 st.subheader("Educational Attainments")
-
-
-# Add content for the achievements section
 st.write("""
-- I graduated my elementary years at Gamut Elementary School.
-- I have worked with [Company/Organization] as a [Position].
-- I published my first book/article on [Topic].
-- I have been recognized for my contributions in [Industry/Field].
-- I have a passion for [Hobby/Interest].
+- **Elementary:** Gamut Elementary School
+- **High School:** Gamut National High School
+- **Senior High School:** Gamut National High School
 """)
 
 # Add a subtitle for the future aspirations section
