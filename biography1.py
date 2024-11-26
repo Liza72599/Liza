@@ -3,6 +3,8 @@ import streamlit as st
 # Set the title of the page
 st.title("My Biography Blog :sunflower:")
 
+st.image('images/your_image.jpg', caption='This is me!', use_column_width=150)
+
 # Add a subtitle for the introduction section
 st.subheader("Introduction")
 
